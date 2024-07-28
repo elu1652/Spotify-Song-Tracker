@@ -96,16 +96,46 @@
             }
         }
     </style>
+    <script>
+        function searchTrack() {
+            const searchQuery = document.getElementById('search-input').value.toLowerCase();
+            const trackElements = document.querySelectorAll('.track-item');
+            let found = false;
+            trackElements.forEach((trackElement, index) => {
+                const trackTitle = trackElement.querySelector('.track-title').textContent.toLowerCase();
+                if (trackTitle.includes(searchQuery)) {
+                    trackElement.scrollIntoView({ behavior: 'smooth' });
+                    found = true;
+                }
+            });
+            if (!found) {
+                alert('Track not found');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('search-input');
+            searchInput.addEventListener('keydown', function (event) {
+                if (event.key === 'Enter') {
+                    searchTrack();
+                }
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="bg-green-500 text-primary-foreground min-h-screen flex flex-col items-center justify-center">
         <h1 class="text-5xl font-extrabold bg-primary py-2 px-4 mb-8 rounded-lg shadow-lg">Spotify Top Tracks</h1>
+        <div class="max-w-md w-full mb-4">
+            <input id="search-input" type="text" class="w-full p-2 rounded-lg border border-border text-black" placeholder="Search for a track">
+            <button onclick="searchTrack()" class="w-full mt-2 p-2 bg-primary text-primary-foreground rounded-lg">Search</button>
+        </div>
         <div class="max-w-md w-full bg-card rounded-lg shadow-lg overflow-hidden">
             {% for track in tracks %}
-            <div class="flex items-center p-4 border-b border-border">
+            <div class="track-item flex items-center p-4 border-b border-border">
                 <img src="{{ track['Image'] }}" alt="{{ track['Title'] }} album cover" class="w-16 h-16 rounded mr-4">
                 <div>
-                    <h2 class="text-lg font-bold mb-2 text-primary">{{ loop.index }}. {{ track['Title'] }}</h2>
+                    <h2 class="track-title text-lg font-bold mb-2 text-primary">{{ loop.index }}. {{ track['Title'] }}</h2>
                     <p class="text-md font-semibold text-black">{{ track['Artist'] }}</p>
                     <p class="text-sm text-muted-foreground">Play Count: {{ track['Plays'] }}</p>
                 </div>

@@ -42,7 +42,7 @@ def get_auth_url():
         'response_type': 'code',
         'redirect_uri': redirect_url,
         'scope': scope,
-        'show_dialog': True
+        'show_dialog': False
     }
     auth_url = f"{url}?{urlencode(params)}"
     #Go to auth page
@@ -145,6 +145,7 @@ def recently_played_tracks():
 def remove_duplicates(track_names,dates,artist_names,image_links):
     #Get most recent stored date
     latest_date = convert_time(get_most_recent_date())
+    print(latest_date)
     #No changes if oldest date of current data is after 
     #most recent date in stored data or saved data is empty
     if load_data() == [] or convert_time(dates[-1]) > latest_date:
@@ -197,15 +198,12 @@ def load_recently_played():
     global output,token
     tracks,dates,artists,images = recently_played_tracks()
     #Save new data
-    save_data(tracks,artists,dates,images)
+    if tracks != []:
+        save_data(tracks,artists,dates,images)
     #Load all data
-    data = load_data()
-    #Get total play count of all data
-    plays = total_play_count(data)
-    #Set plays as dict and sort by number of plays per song
-    plays = (sorted(plays,key=lambda x:x['Plays'],reverse=True))
-    
-    return render_template('top_songs.html',tracks=plays)
+    data = load_data()['tracks']
+    #Display data on website
+    return render_template('top_songs.html',tracks=data)
 
 def load_data():
     #Load in previous data
@@ -227,29 +225,44 @@ def save_data(tracks,artists,dates,images):
     keys = ['Title','Artist','Date','Image']
     #Combines 4 lists into 1
     data = (tuple(zip(tracks,artists,dates,images)))
+    #Convert zip to list of dictionaries
+    data = [{keys[0]:t,keys[1]:a,keys[2]:d,keys[3]:i} for t,a,d,i in data]
     #Sorts data by oldest to most recent
-    data = sorted(data,key=lambda x:convert_time(x[-2]))
+    data = sorted(data,key=lambda x:convert_time(x['Date']))
+    #Get most recent date
+    latest_date = data[-1]['Date']
     #Load in previous data
-    json_data = load_data()
-    #Add in new data
+    track_list = {}
+    if load_data() != []:
+        json_data = load_data()['tracks']
+        track_list = {t['Title']:t for t in json_data}
+        
+    #Loop through each song in new data
     for song in data:
-        d = {}
-        d[keys[0]] = song[0]
-        d[keys[1]] = song[1]
-        d[keys[2]] = song[2]
-        d[keys[3]] = song[3]
-        json_data.append(d)
+        title = song['Title']
+        #If this song is already in the saved data, increase plays
+        #Update date to most recent date
+        if title in track_list:
+            track_list[title]['Plays'] += 1
+            if track_list[title]['Date'] < song['Date']:
+                track_list[title]['Date'] = song['Date']
+        else:
+            song['Plays'] = 1
+            track_list[title] = song
+    
+    #Prepare values to put into .json by converting to list and ordering
+    #By decreasing plays
+    all_tracks = sorted(list(track_list.values()),key=lambda x:x['Plays'],reverse=True)
     #Write in data.json
     with open(file_name,'w') as file:
-        json.dump(json_data,file,indent=5)
+        json.dump({'tracks':all_tracks,'latest_date':latest_date},file,indent=6)
 
 def get_most_recent_date():
     #Returns date of most recently listened to song
     #Returns 0 if no data
     data = load_data()
     if data:
-        track = data[-1]
-        return track['Date']
+        return data['latest_date']
     else:
         return 0
 

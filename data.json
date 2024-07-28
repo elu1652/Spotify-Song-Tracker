@@ -1,302 +1,292 @@
-[
-     {
-          "Title": "Sun and Moon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:14:32.866Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273979cf803b9d85291a17882ef"
-     },
-     {
-          "Title": "\ud574\uc57c (HEYA)",
-          "Artist": "IVE",
-          "Date": "2024-07-27T10:17:43.074Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b27326cc1062ed475f238d244141"
-     },
-     {
-          "Title": "Swan Song",
-          "Artist": "LE SSERAFIM",
-          "Date": "2024-07-27T10:20:20.477Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273110f5426b8c149e80804912a"
-     },
-     {
-          "Title": "Magnetic",
-          "Artist": "ILLIT",
-          "Date": "2024-07-27T10:23:01.980Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273f037c5fb9de6c78726cb8e2c"
-     },
-     {
-          "Title": "Drama",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:26:37.325Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273c54e39f2ae0dd10731f93c08"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:31:00.631Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:34:17.820Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:37:34.820Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:40:50.823Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:44:07.791Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:47:24.782Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:50:41.821Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:53:58.805Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T10:57:15.836Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T11:00:32.802Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T11:03:49.787Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T13:29:36.548Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T13:32:53.823Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T13:36:10.485Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T13:39:27.731Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Armageddon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T13:42:44.718Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Supernova",
-          "Artist": "aespa",
-          "Date": "2024-07-27T13:45:56.913Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273d2ab7b4a8d0adf91b2167543"
-     },
-     {
-          "Title": "How Sweet",
-          "Artist": "NewJeans",
-          "Date": "2024-07-27T13:49:36.234Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273b657fbb27b17e7bd4691c2b2"
-     },
-     {
-          "Title": "BAHAMA",
-          "Artist": "aespa",
-          "Date": "2024-07-27T13:52:55.508Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "DIVE",
-          "Artist": "TWICE",
-          "Date": "2024-07-27T13:55:57.201Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b27303661fed5f5dd9c80a47bb84"
-     },
-     {
-          "Title": "You",
-          "Artist": "aespa",
-          "Date": "2024-07-27T13:59:21.652Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273c54e39f2ae0dd10731f93c08"
-     },
-     {
-          "Title": "Savage",
-          "Artist": "aespa",
-          "Date": "2024-07-27T14:03:19.457Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273d8cc2281fcd4519ca020926b"
-     },
-     {
-          "Title": "Live My Life",
-          "Artist": "aespa",
-          "Date": "2024-07-27T14:05:59.460Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Prologue",
-          "Artist": "aespa",
-          "Date": "2024-07-27T14:09:14.457Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Melody",
-          "Artist": "aespa",
-          "Date": "2024-07-27T14:12:22.214Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c"
-     },
-     {
-          "Title": "Sun and Moon",
-          "Artist": "aespa",
-          "Date": "2024-07-27T14:18:12.588Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273979cf803b9d85291a17882ef"
-     },
-     {
-          "Title": "EASY",
-          "Artist": "LE SSERAFIM",
-          "Date": "2024-07-27T14:21:15.386Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273110f5426b8c149e80804912a"
-     },
-     {
-          "Title": "Swan Song",
-          "Artist": "LE SSERAFIM",
-          "Date": "2024-07-27T14:23:53.141Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273110f5426b8c149e80804912a"
-     },
-     {
-          "Title": "Smart",
-          "Artist": "LE SSERAFIM",
-          "Date": "2024-07-27T14:26:39.351Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273110f5426b8c149e80804912a"
-     },
-     {
-          "Title": "Look At Me",
-          "Artist": "TWICE",
-          "Date": "2024-07-27T14:33:03.124Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b2736034eda385497f614778f457"
-     },
-     {
-          "Title": "Thirsty",
-          "Artist": "aespa",
-          "Date": "2024-07-27T14:36:33.249Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b27304878afb19613a94d37b29ce"
-     },
-     {
-          "Title": "Drama",
-          "Artist": "aespa",
-          "Date": "2024-07-27T14:40:25.860Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273c54e39f2ae0dd10731f93c08"
-     },
-     {
-          "Title": "Perfect Night",
-          "Artist": "LE SSERAFIM",
-          "Date": "2024-07-27T14:45:50.070Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b2735e352f6eccf8cb96d0b247cc"
-     },
-     {
-          "Title": "Next Level",
-          "Artist": "aespa",
-          "Date": "2024-07-27T14:49:45.782Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b2737a393b04e8ced571618223e8"
-     },
-     {
-          "Title": "\u30b8\u30e5\u30a8\u30ea\u30fc (Prod. imase)",
-          "Artist": "LE SSERAFIM",
-          "Date": "2024-07-27T14:54:53.794Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b27372ce375938902d41a475d7b9"
-     },
-     {
-          "Title": "Catallena",
-          "Artist": "Orange Caramel",
-          "Date": "2024-07-27T14:58:07.509Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b27336484b845182eec375dace20"
-     },
-     {
-          "Title": "\u30b8\u30e5\u30a8\u30ea\u30fc (Prod. imase)",
-          "Artist": "LE SSERAFIM",
-          "Date": "2024-07-27T15:00:55.397Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b27372ce375938902d41a475d7b9"
-     },
-     {
-          "Title": "Spicy",
-          "Artist": "aespa",
-          "Date": "2024-07-27T15:06:19.335Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b27304878afb19613a94d37b29ce"
-     },
-     {
-          "Title": "Impurities",
-          "Artist": "LE SSERAFIM",
-          "Date": "2024-07-27T15:10:30.531Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273d71fd77b89d08bc1bda219c7"
-     },
-     {
-          "Title": "Fire in the belly",
-          "Artist": "LE SSERAFIM",
-          "Date": "2024-07-27T15:13:49.568Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273d71fd77b89d08bc1bda219c7"
-     },
-     {
-          "Title": "Like Ooh-Ahh",
-          "Artist": "TWICE",
-          "Date": "2024-07-27T15:19:50.062Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273ce17f432c79c5e45ce88688f"
-     },
-     {
-          "Title": "YES or YES",
-          "Artist": "TWICE",
-          "Date": "2024-07-27T15:23:48.003Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273140ba24506e300382e08e6ec"
-     },
-     {
-          "Title": "TT",
-          "Artist": "TWICE",
-          "Date": "2024-07-27T15:27:21.350Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273387444ab2fc1f08dfe7915ab"
-     },
-     {
-          "Title": "CHEER UP",
-          "Artist": "TWICE",
-          "Date": "2024-07-27T15:30:51.219Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b2739e9e3a1adcc32090690fd0b6"
-     },
-     {
-          "Title": "ANTIFRAGILE",
-          "Artist": "LE SSERAFIM",
-          "Date": "2024-07-27T15:34:00.191Z",
-          "Image": "https://i.scdn.co/image/ab67616d0000b273a991995542d50a691b9ae5be"
-     }
-]
+{
+      "tracks": [
+            {
+                  "Title": "BAHAMA",
+                  "Artist": "aespa",
+                  "Date": "2024-07-28T13:13:07.896Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c",
+                  "Plays": 4
+            },
+            {
+                  "Title": "Supernatural",
+                  "Artist": "NewJeans",
+                  "Date": "2024-07-28T13:06:43.271Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b2737e1eeb0d7cc374a168369c80",
+                  "Plays": 3
+            },
+            {
+                  "Title": "Hot Mess",
+                  "Artist": "aespa",
+                  "Date": "2024-07-28T13:09:56.697Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273979cf803b9d85291a17882ef",
+                  "Plays": 3
+            },
+            {
+                  "Title": "DIVE",
+                  "Artist": "TWICE",
+                  "Date": "2024-07-28T13:16:07.391Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b27303661fed5f5dd9c80a47bb84",
+                  "Plays": 3
+            },
+            {
+                  "Title": "Armageddon",
+                  "Artist": "aespa",
+                  "Date": "2024-07-28T12:50:32.488Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c",
+                  "Plays": 2
+            },
+            {
+                  "Title": "ABCD",
+                  "Artist": "NAYEON",
+                  "Date": "2024-07-28T12:53:16.165Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b27373f05e5c2f5ec5cd07c6b6d9",
+                  "Plays": 2
+            },
+            {
+                  "Title": "Butterflies",
+                  "Artist": "NAYEON",
+                  "Date": "2024-07-28T12:56:57.648Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b27373f05e5c2f5ec5cd07c6b6d9",
+                  "Plays": 2
+            },
+            {
+                  "Title": "Magic (Feat. JULIE of KISS OF LIFE)",
+                  "Artist": "NAYEON",
+                  "Date": "2024-07-28T13:00:24.939Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b27373f05e5c2f5ec5cd07c6b6d9",
+                  "Plays": 2
+            },
+            {
+                  "Title": "HalliGalli (Prod. by LEE CHANHYUK of AKMU)",
+                  "Artist": "NAYEON",
+                  "Date": "2024-07-28T13:03:32.352Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b27373f05e5c2f5ec5cd07c6b6d9",
+                  "Plays": 2
+            },
+            {
+                  "Title": "I AM",
+                  "Artist": "IVE",
+                  "Date": "2024-07-28T11:17:22.655Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b27325ef3cec1eceefd4db2f91c8",
+                  "Plays": 2
+            },
+            {
+                  "Title": "You",
+                  "Artist": "aespa",
+                  "Date": "2024-07-28T09:46:14.621Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273c54e39f2ae0dd10731f93c08",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Savage",
+                  "Artist": "aespa",
+                  "Date": "2024-07-28T09:50:13.434Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273d8cc2281fcd4519ca020926b",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Live My Life",
+                  "Artist": "aespa",
+                  "Date": "2024-07-28T09:52:52.462Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Prologue",
+                  "Artist": "aespa",
+                  "Date": "2024-07-28T09:56:07.336Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Melody",
+                  "Artist": "aespa",
+                  "Date": "2024-07-28T09:59:16.083Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273090cfa22962b115ac530674c",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Hot Air Balloon",
+                  "Artist": "aespa",
+                  "Date": "2024-07-28T10:02:34.933Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273c54e39f2ae0dd10731f93c08",
+                  "Plays": 1
+            },
+            {
+                  "Title": "ONLY",
+                  "Artist": "LeeHi",
+                  "Date": "2024-07-28T11:21:23.258Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273d5d11b6ac4242aaa41c8be69",
+                  "Plays": 1
+            },
+            {
+                  "Title": "FEARLESS (2023 Ver.)",
+                  "Artist": "LE SSERAFIM",
+                  "Date": "2024-07-28T11:24:12.763Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273d71fd77b89d08bc1bda219c7",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Sour Grapes",
+                  "Artist": "LE SSERAFIM",
+                  "Date": "2024-07-28T11:27:29.780Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b2739030184114911536d5f77555",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Blue Flame",
+                  "Artist": "LE SSERAFIM",
+                  "Date": "2024-07-28T11:30:52.244Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b2739030184114911536d5f77555",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Good Parts (when the quality is bad but I am)",
+                  "Artist": "LE SSERAFIM",
+                  "Date": "2024-07-28T11:33:28.710Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273a991995542d50a691b9ae5be",
+                  "Plays": 1
+            },
+            {
+                  "Title": "The Great Mermaid",
+                  "Artist": "LE SSERAFIM",
+                  "Date": "2024-07-28T11:36:27.139Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b2739030184114911536d5f77555",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Choices",
+                  "Artist": "LE SSERAFIM",
+                  "Date": "2024-07-28T11:39:48.380Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b27314aeb8283b47774aea402151",
+                  "Plays": 1
+            },
+            {
+                  "Title": "No-Return (Into the unknown)",
+                  "Artist": "LE SSERAFIM",
+                  "Date": "2024-07-28T11:42:54.408Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273d71fd77b89d08bc1bda219c7",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Eve, Psyche & The Bluebeard\u2019s wife",
+                  "Artist": "LE SSERAFIM",
+                  "Date": "2024-07-28T11:45:59.526Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273d71fd77b89d08bc1bda219c7",
+                  "Plays": 1
+            },
+            {
+                  "Title": "\ud0a4\uc2a4\ub294 \ub2e4\uc74c\uc5d0",
+                  "Artist": "LOONA",
+                  "Date": "2024-07-28T11:49:20.112Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273df663b03ff7a54b1ac5619f7",
+                  "Plays": 1
+            },
+            {
+                  "Title": "After School",
+                  "Artist": "Weeekly",
+                  "Date": "2024-07-28T11:52:45.691Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b27318a15ed7d84a6c773126b12b",
+                  "Plays": 1
+            },
+            {
+                  "Title": "WAVE",
+                  "Artist": "IVE",
+                  "Date": "2024-07-28T11:55:42.240Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b2739254f2d47aa762c033f2682e",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Queencard",
+                  "Artist": "(G)I-DLE",
+                  "Date": "2024-07-28T11:58:24.395Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b27382dd2427e6d302711b1b9616",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Likey",
+                  "Artist": "TWICE",
+                  "Date": "2024-07-28T12:01:52.176Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b2736034eda385497f614778f457",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Lovin' Me",
+                  "Artist": "FIFTY FIFTY",
+                  "Date": "2024-07-28T12:05:03.169Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273e44c0ca7417080bf4d4ecfd3",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Super Shy",
+                  "Artist": "NewJeans",
+                  "Date": "2024-07-28T12:07:38.021Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b2733d98a0ae7c78a3a9babaf8af",
+                  "Plays": 1
+            },
+            {
+                  "Title": "ETA",
+                  "Artist": "NewJeans",
+                  "Date": "2024-07-28T12:10:09.692Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b2730744690248ef3ba7b776ea7b",
+                  "Plays": 1
+            },
+            {
+                  "Title": "New Jeans",
+                  "Artist": "NewJeans",
+                  "Date": "2024-07-28T12:11:59.350Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b2733d98a0ae7c78a3a9babaf8af",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Supernova",
+                  "Artist": "aespa",
+                  "Date": "2024-07-28T12:37:15.103Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273d2ab7b4a8d0adf91b2167543",
+                  "Plays": 1
+            },
+            {
+                  "Title": "How Sweet",
+                  "Artist": "NewJeans",
+                  "Date": "2024-07-28T12:40:55.336Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273b657fbb27b17e7bd4691c2b2",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Bubble Gum",
+                  "Artist": "NewJeans",
+                  "Date": "2024-07-28T12:44:15.259Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273b657fbb27b17e7bd4691c2b2",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Still With You",
+                  "Artist": "Jung Kook",
+                  "Date": "2024-07-28T13:20:06.093Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273a7f42c375578df426b37638d",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Stars and Raindrops (Seungmin)",
+                  "Artist": "Stray Kids",
+                  "Date": "2024-07-28T13:23:56.461Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273d681b1b80c5dff43d2f4a3df",
+                  "Plays": 1
+            },
+            {
+                  "Title": "Star",
+                  "Artist": "Colde",
+                  "Date": "2024-07-28T13:27:37.308Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b2738819bc2ed7479778ee30e345",
+                  "Plays": 1
+            },
+            {
+                  "Title": "EASY",
+                  "Artist": "LE SSERAFIM",
+                  "Date": "2024-07-28T13:31:03.431Z",
+                  "Image": "https://i.scdn.co/image/ab67616d0000b273110f5426b8c149e80804912a",
+                  "Plays": 1
+            }
+      ],
+      "latest_date": "2024-07-28T13:31:03.431Z"
+}
