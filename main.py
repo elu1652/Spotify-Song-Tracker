@@ -253,15 +253,6 @@ def get_most_recent_date():
     else:
         return 0
 
-
-
-@app.route('/recently_played')
-def display():
-    #Displays the data in html file
-    variable = output
-    return render_template('top_songs.html',tracks=variable)
-
-
 #Launch website
 if __name__ == '__main__':
     webbrowser.open(website)
